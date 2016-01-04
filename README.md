@@ -19,3 +19,8 @@ Benchmarks for the `select` statement:
 - `BenchmarkSelectDefaultAfterWrite[One-Three]`: Selects the default case after trying to write to `[One-Three]` unbuffered channels
 - `BenchmarkSelectDefaultBeforeWrite[One-Three]`: Selects the default case after trying to write to `[One-Three]` unbuffered channels, but the default case is put before the other cases in the source
 - `BenchmarkSelectDefaultAfterWrite[One-Three]Buffered`: Selects the default case after trying to write to `[One-Three]` buffered (1) channels
+
+## Results
+For results, see `RESULTS.md`.
+
+The results may change significantly (e.g. when I run them on a PC vs. when I run them on a laptop), but the interesting relations between results should remain the same.
